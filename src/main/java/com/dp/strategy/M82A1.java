@@ -1,4 +1,4 @@
-package com.dp.singeton;
+package com.dp.strategy;
 
 public class M82A1 implements Gun{
 

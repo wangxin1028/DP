@@ -1,4 +1,4 @@
-package com.dp.singeton;
+package com.dp.strategy;
 
 public class DesertEagle implements Gun {
 
