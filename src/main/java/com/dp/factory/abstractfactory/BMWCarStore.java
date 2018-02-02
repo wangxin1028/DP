@@ -4,7 +4,8 @@ public class BMWCarStore extends CarStore {
 
 	@Override
 	public Car getCar() {
-		return new BMWCar();
+		MaterialFactory materialFactory = new BMWMeterialFactory();
+		return new BMWCar(materialFactory);
 	}
 
 }

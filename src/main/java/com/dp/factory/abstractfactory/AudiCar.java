@@ -1,10 +1,10 @@
 package com.dp.factory.abstractfactory;
 
 public class AudiCar extends Car {
-
-	public AudiCar() {
+	private MaterialFactory materialFactory;
+	public AudiCar(MaterialFactory materialFactory) {
 		this.name = "奥迪";
-		this.materialFactory = new AudiMeterialFactory();
+		this.materialFactory = materialFactory;
 	}
 
 	@Override

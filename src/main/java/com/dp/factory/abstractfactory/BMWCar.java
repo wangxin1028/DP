@@ -1,9 +1,10 @@
 package com.dp.factory.abstractfactory;
 
 public class BMWCar extends Car {
-	public BMWCar() {
+	private MaterialFactory materialFactory;
+	public BMWCar(MaterialFactory materialFactory) {
 		this.name = "宝马";
-		this.materialFactory = new BMWMeterialFactory();
+		this.materialFactory = materialFactory;
 	}
 
 	@Override

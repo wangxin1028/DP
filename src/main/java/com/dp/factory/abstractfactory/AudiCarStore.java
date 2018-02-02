@@ -4,7 +4,8 @@ public class AudiCarStore extends CarStore {
 
 	@Override
 	public Car getCar() {
-		return new AudiCar();
+		MaterialFactory materialFactory = new AudiMeterialFactory();
+		return new AudiCar(materialFactory);
 	}
 	
 

@@ -4,7 +4,6 @@ public abstract class Car {
 	protected Steel steel;
 	protected Leather leather;
 	protected Glass glass;
-	protected MaterialFactory materialFactory;
 	protected String name;
 	public String getName() {
 		return name;
