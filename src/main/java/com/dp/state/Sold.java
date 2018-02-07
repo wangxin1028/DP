@@ -23,6 +23,7 @@ public class Sold implements State {
 
 	@Override
 	public void dispense() {
+		machine.releaseBall();
 		if(machine.getCount()>0) {
 			machine.setCurrentState(machine.getNoQuarter());
 		}else {
