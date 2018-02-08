@@ -1,5 +1,8 @@
 package com.dp.state;
 
+/**
+ * 状态接口
+ */
 public interface State {
 	//投币
 	public void insertQuarter();
